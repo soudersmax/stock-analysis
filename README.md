@@ -8,7 +8,7 @@
 
 ​	Below is a comparison of the completed analysis of all stocks by year. The "Total Daily Volume", or the number of trades of the stock in a given day, is summed over the course of the year. In the "Return" column, the stock's price at the end of the year is divided by the price at the beginning of the year, and converted to show percentage growth or loss. This indicates how much return on investment a stock in a given corporation will provide the owner, with positive (green) values indicating increased value and negative (red) indicating losses.
 
-<img src="C:\Users\soude\Desktop\Data Analytics Bootcamp\Module 2  - VBA of Wall Street\Resources\All_Stocks_Comparison.png" style="zoom: 80%;" />
+<img src="\Resources\All_Stocks_Comparison.png" style="zoom: 80%;" />
 
 ​	The conditional formatting here allows the differences between stock performance in 2017 and 2018 for the selected companies to be displayed easily and clearly. In 2017, only one ticker ("TERP") shows a negative return, while in 2018 most of the selected tickers showed a negative return. "DQ", the main stock of interest has a spectacular year with a nearly 200% return in 2017. However, in 2018, that return drops to -63%. While the nature of the stock market is a risky one, a change of this magnitude likely indicates major changes or setbacks in the business which it is unlikely to fully recover from in the next year. Other options with less drastic changes likely indicate a less risky stock purchase/portfolio. 
 
@@ -37,7 +37,7 @@
 
 While nested for loops are an effective way to complete the project, they do come at a price - speed. 
 
-![](C:\Users\soude\Desktop\Data Analytics Bootcamp\Module 2  - VBA of Wall Street\Resources\Timer1_Comparison.png)
+![](\Resources\Timer1_Comparison.png)
 
 In the loop above, the computer runs through *each record*  of the data set once for each possible ticker category (or *i*). In this case, there are only 12 categories and 3013 rows of data. However, in a worst case scenario, each record could be unique, meaning that the computer would run through the values n<sup>2</sup> (3013 <sup>2</sup>) times. 
 

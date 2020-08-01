@@ -37,11 +37,9 @@
 
 While nested for loops are an effective way to complete the project, they do come at a price - speed. 
 
-![](\Resources\Timer1_Comparison.png)
+<img src="Resources\Timer1_Comparison.png>
 
 In the loop above, the computer runs through *each record*  of the data set once for each possible ticker category (or *i*). In this case, there are only 12 categories and 3013 rows of data. However, in a worst case scenario, each record could be unique, meaning that the computer would run through the values n<sup>2</sup> (3013 <sup>2</sup>) times. 
-
- 
 
 ​	To reduce the time and resources consumed, we refactored the code into an array (snippet below).
 
@@ -71,8 +69,7 @@ In the loop above, the computer runs through *each record*  of the data set once
 Creating the index and using the array method allows us to reduce this time because the computer now needs to access each data row only once. By using pre-sorted data, we are essentially designating a zone, and once the computer recognizes that it has left the "AY" zone, it doesn't have to go check back through those rows to confirm that there are no other values in that range. This cuts down the time resources required to n, rather than n<sup>2</sup>. 
 
 
-
-![](Resources\Timer2_Comparison.png)
+<img src="Resources\Timer2_Comparison.png>
 
 
 
